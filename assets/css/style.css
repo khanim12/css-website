@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato&family=Montserrat:wght@100;200;300;400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:wght@300;400;500&family=Oxygen&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Teko&family=Varela&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.section1 {
+  background-color: #edb91b;
+  text-align: center;
+  padding-top: 100px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.section1 h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  opacity: 0.8;
+  
+}
+.section1 p {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-style: italic;
+  opacity: 0.8;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.section1 button{
+    color: white;
+    background-color: #1d809f;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.section2{
+    text-align: center;
+}
+.section2 h2{
+    text-transform: capitalize;
+    padding-top: 50px;
+    font-size: 30px;
+padding-bottom: 20px;
+}
+.section2 p{
+font-size: 20px;
+padding-bottom: 30px;
+}
+.section2 button{
+    color: white;
+    background-color: black;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.section3{
+    background-color: #1d809f;
+    margin-top:70px ;
+}
+.section3 h3{
+    text-align: center;
+    color: #edb91b;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+.section3 .sec3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.section3 .circle{
+    border: 1px solid white;
+    border-radius: 100%;
+    display: inline-block;
+text-align: center;
+padding: 70px 20px;
+margin: 10px;
+margin-right: 50px;
+margin-left: 20px;
+margin-bottom: 70px;
+}
+.section3 .circle p{
+    color: white;
+    opacity: 0.8;
+    font-size: 15px;
+}
+#footer{
+    text-align: center;
+    margin: 40px 0;
+}
